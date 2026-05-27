@@ -1,0 +1,5 @@
+azure-ai-agents>=1.1.0
+azure-identity>=1.17.1
+python-dotenv>=1.0.1
+streamlit>=1.36.0
+pypdf>=4.2.0
