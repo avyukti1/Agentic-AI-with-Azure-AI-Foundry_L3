@@ -1,0 +1,2 @@
+{"question":"Does the ABC Corp dataset mention whether employee records exist in HR-Employee_Records?","expected_keywords":["HR-Employee_Records","EmployeeID","department"],"filter":"department eq 'HR'"}
+{"question":"What benefits does ABC Corp provide to eligible employees?","expected_keywords":["medical insurance","paid leave","learning reimbursement","retirement"],"filter":"department eq 'HR'"}

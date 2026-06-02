@@ -1,0 +1,8 @@
+Title: ABC Corp HR Policy
+Department: HR
+Security: internal
+
+ABC Corp payroll policies describe monthly salary processing, payroll exception handling, and employee record validation.
+Employee records are maintained in the HR-Employee_Records dataset. Each employee record can include EmployeeID, employee name, department, role, location, manager, joining date, employment status, and payroll eligibility.
+
+Only authorized HR and payroll users should access employee-level records. General employees can access policy summaries but not individual employee records.

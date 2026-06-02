@@ -1,0 +1,8 @@
+Title: ABC Corp Benefits Policy
+Department: HR
+Security: internal
+
+ABC Corp provides medical insurance, paid leave, learning reimbursement, and retirement contribution benefits to eligible employees.
+Benefit eligibility depends on employment status, location, and job type. Contractors may have limited benefits unless a contract explicitly states otherwise.
+
+Questions about individual eligibility should be answered only when the retrieved source contains the relevant employee or policy details.
