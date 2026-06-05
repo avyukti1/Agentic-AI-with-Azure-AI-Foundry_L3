@@ -1,0 +1,3 @@
+FOUNDRY_PROJECT_ENDPOINT="https://ajay-agent-project111-resource.services.ai.azure.com/api/projects/ajay-agent-project111"
+MODEL_DEPLOYMENT_NAME="ajay-gpt-4o"
+MCP_SERVER_NAME="MicrosoftLearnMCPserver"
