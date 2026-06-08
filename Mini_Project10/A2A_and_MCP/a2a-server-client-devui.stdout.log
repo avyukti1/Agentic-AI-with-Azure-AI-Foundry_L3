@@ -1,0 +1,62 @@
+Starting A2A Client/Server DevUI at http://localhost:8093
+Expected running A2A server: http://localhost:8080
+Agent Card URL: http://localhost:8080/.well-known/agent-card.json
+A2A client/server wiring graph:
+ flowchart TD
+  CLIENT_UserPrompt["CLIENT_UserPrompt (Start)"];
+  A2A_DISCOVERY_GetAgentCard["A2A_DISCOVERY_GetAgentCard"];
+  CLIENT_BuildA2AJsonRpcMessage["CLIENT_BuildA2AJsonRpcMessage"];
+  A2A_PROTOCOL_JsonRpcStreaming["A2A_PROTOCOL_JsonRpcStreaming"];
+  SERVER_RemoteA2AFoundryAgent_localhost_8080["SERVER_RemoteA2AFoundryAgent_localhost_8080"];
+  CLIENT_RenderStreamedResult["CLIENT_RenderStreamedResult"];
+  internal_CLIENT_UserPrompt --> CLIENT_UserPrompt;
+  internal_A2A_DISCOVERY_GetAgentCard --> A2A_DISCOVERY_GetAgentCard;
+  CLIENT_UserPrompt --> A2A_DISCOVERY_GetAgentCard;
+  internal_CLIENT_BuildA2AJsonRpcMessage --> CLIENT_BuildA2AJsonRpcMessage;
+  A2A_DISCOVERY_GetAgentCard --> CLIENT_BuildA2AJsonRpcMessage;
+  internal_A2A_PROTOCOL_JsonRpcStreaming --> A2A_PROTOCOL_JsonRpcStreaming;
+  CLIENT_BuildA2AJsonRpcMessage --> A2A_PROTOCOL_JsonRpcStreaming;
+  internal_SERVER_RemoteA2AFoundryAgent_localhost_8080 --> SERVER_RemoteA2AFoundryAgent_localhost_8080;
+  A2A_PROTOCOL_JsonRpcStreaming --> SERVER_RemoteA2AFoundryAgent_localhost_8080;
+  internal_CLIENT_RenderStreamedResult --> CLIENT_RenderStreamedResult;
+  SERVER_RemoteA2AFoundryAgent_localhost_8080 --> CLIENT_RenderStreamedResult;
+INFO:     127.0.0.1:59748 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55315 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55315 - "GET /assets/index.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63764 - "GET /assets/index.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55315 - "GET /meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55315 - "GET /v1/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63764 - "GET /agentframework.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63764 - "GET /v1/entities/workflow_in_memory_a2a-client-server-wiring-demo_5910264b696a411baa943bdfac0390bd/info?type=workflow HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63764 - "GET /v1/conversations?entity_id=workflow_in_memory_a2a-client-server-wiring-demo_5910264b696a411baa943bdfac0390bd&type=workflow_session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63764 - "POST /v1/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58260 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58286 - "GET /v1/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58291 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61753 - "POST /v1/responses HTTP/1.1" 200 OK
+A2A protocol boundary: client will use JSON-RPC streaming over HTTP.
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_da9ea080-11fd-463a-8187-0c3984b8e3ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_e08aef2d-55ab-4f54-9b1d-5e5bac948c07 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_2607e9b1-5564-4690-993a-bce9d981891c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_e7272bec-9bc4-45e1-8134-0698e2c405e5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_53610b8b-d3e5-42c5-97c2-8027dde90a7f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_ceea1157-015c-421a-a847-90b946fd3ce1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /v1/conversations/conv_154dd67e4f644ac9be948c804d2be590/items/checkpoint_da9ea080-11fd-463a-8187-0c3984b8e3ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51527 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55740 - "GET /meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55740 - "GET /v1/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55740 - "GET /v1/entities/workflow_in_memory_a2a-client-server-wiring-demo_5910264b696a411baa943bdfac0390bd/info?type=workflow HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55740 - "GET /v1/conversations?entity_id=workflow_in_memory_a2a-client-server-wiring-demo_5910264b696a411baa943bdfac0390bd&type=workflow_session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "POST /v1/responses HTTP/1.1" 200 OK
+A2A protocol boundary: client will use JSON-RPC streaming over HTTP.
+INFO:     127.0.0.1:63418 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52477 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52477 - "GET /assets/index.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63828 - "GET /assets/index.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52477 - "GET /meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52477 - "GET /v1/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63828 - "GET /agentframework.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63828 - "GET /v1/entities/workflow_in_memory_a2a-client-server-wiring-demo_5910264b696a411baa943bdfac0390bd/info?type=workflow HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63828 - "GET /v1/conversations?entity_id=workflow_in_memory_a2a-client-server-wiring-demo_5910264b696a411baa943bdfac0390bd&type=workflow_session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51862 - "POST /v1/responses HTTP/1.1" 200 OK
