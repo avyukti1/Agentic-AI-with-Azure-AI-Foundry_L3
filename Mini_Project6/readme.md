@@ -40,32 +40,6 @@ The main objective of this project is to:
 - Modular agent architecture
 - Extensible tool system
 
----
-
-## Project Structure
-Mini_Project6/
-│
-├── app.py
-│ Main application entry point
-│
-├── tools.py
-│ External tools used by the agent
-│
-├── structured_response_demo.py
-│ Demonstration of structured outputs
-│
-├── requirements.txt
-│ Project dependencies
-│
-├── APPLICATION_LOGIC.md
-│ Logic and workflow explanation for ReAct agent
-│
-├── pycache/
-│ Python compiled cache files (auto-generated)
-│
-└── Build reasoning agent using ReAct.zip
-Project archive / packaged source code
-
 
 ---
 
