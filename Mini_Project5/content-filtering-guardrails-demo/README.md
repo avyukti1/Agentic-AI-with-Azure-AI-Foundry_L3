@@ -133,5 +133,129 @@ The main objective of this project is to:
 
 ---
 
-## Project Structure
+
+---
+
+## System Architecture
+
+1. User submits input prompt
+2. Input is passed through **guardrails layer**
+3. Content safety module evaluates:
+   - Toxicity
+   - Policy violations
+   - Restricted patterns
+4. If safe:
+   - Request is processed normally
+5. If unsafe:
+   - Response is blocked or modified
+6. Final output is returned securely
+
+---
+
+## Core Modules
+
+### 1. Content Safety Module (content_safety.py)
+- Analyzes input text for unsafe patterns
+- Applies filtering rules
+- Detects restricted or sensitive content
+
+---
+
+### 2. Guardrails Module (guardrails.py)
+- Enforces safety policies
+- Controls input/output flow
+- Blocks or modifies unsafe responses
+- Acts as a protection layer for AI system
+
+---
+
+### 3. Application Layer (app.py)
+- Entry point of the system
+- Integrates safety + guardrails logic
+- Handles user interaction flow
+
+---
+
+## AI Concepts Used
+
+### 1. Responsible AI
+- Safety enforcement
+- Fairness and ethical considerations
+- Content moderation
+
+### 2. AI Guardrails
+- Input validation
+- Output filtering
+- Policy-based control mechanisms
+
+### 3. Generative AI Safety
+- Prompt-level protection
+- Response moderation
+- Risk mitigation strategies
+
+### 4. Agentic AI Safety Design
+- Controlled agent behavior
+- Safety-first architecture
+- Structured decision flow
+
+---
+
+## Example Use Cases
+
+### Safe Input
+- "Explain leave policy"
+- "What is IT support process?"
+
+### Unsafe Input (Blocked or filtered)
+- Harmful content requests
+- Policy-violating prompts
+- Restricted content generation
+
+---
+
+## Technology Stack
+
+- Python
+- Rule-based filtering system
+- Content safety logic engine
+- Agentic AI safety principles
+- Conceptual Azure Responsible AI alignment
+
+---
+
+## Learning Outcomes
+
+After completing this project, you will understand:
+
+- How AI guardrails are implemented in real systems
+- How content filtering protects generative AI applications
+- How Responsible AI principles are applied in code
+- How enterprise AI systems ensure safe outputs
+- How safety layers are integrated in Agentic AI architectures
+
+---
+
+## Future Enhancements
+
+- Integration with Azure AI Content Safety API
+- ML-based toxicity detection model
+- Real-time streaming moderation
+- Role-based safety policies
+- Logging and audit system for AI decisions
+- Deployment as microservice on Azure
+
+---
+
+## Project Type
+
+- Mini Project
+- AI Safety System
+- Content Filtering Engine
+- Responsible AI Implementation
+
+---
+
+## License
+
+For educational and training purposes only.
 
