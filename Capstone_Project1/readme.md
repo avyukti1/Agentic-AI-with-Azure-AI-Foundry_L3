@@ -46,12 +46,199 @@ Participants are expected to apply concepts learned across all training modules,
 
 # Capstone Evaluation Structure
 
-| Capstone                     | Marks     |
-| ---------------------------- | --------- |
-| Capstone Project 1           | 40 Marks  |
-| Capstone Project 2           | 40 Marks  |
-| Documentation & Presentation | 20 Marks  |
-| Total                        | 100 Marks |
+# Evaluation Criteria (100 Marks)
+
+| Category                                                     | Marks         |
+| ------------------------------------------------------------ | ------------- |
+| Solution Architecture Design                                 | 10            |
+| Agent Framework Implementation                               | 10            |
+| Advanced RAG Implementation                                  | 10            |
+| Enterprise Integrations & Automation                         | 10            |
+| Security, Governance & Monitoring                            | 10            |
+| Performance Optimization & Scalability                       | 10            |
+| Documentation Quality                                        | 10            |
+| Technical Demonstration & Presentation                       | 10            |
+| Session Participation & Activeness                           | 10            |
+| Professional Behavior, Communication & Technical Explanation | 10            |
+| **Total**                                                    | **100 Marks** |
+
+---
+
+# Detailed Assessment Parameters
+
+## 1. Solution Architecture Design (10 Marks)
+
+Participants will be evaluated on:
+
+* Architecture completeness
+* Agent design quality
+* Multi-agent orchestration
+* Scalability considerations
+* Enterprise readiness
+
+---
+
+## 2. Agent Framework Implementation (10 Marks)
+
+Assessment Areas:
+
+* Planner Agent
+* Tool Usage
+* Execution Flow
+* Memory Implementation
+* Stateful Conversations
+
+---
+
+## 3. Advanced RAG Implementation (10 Marks)
+
+Assessment Areas:
+
+* Knowledge ingestion
+* Chunking strategy
+* Embedding selection
+* Hybrid Search
+* Retrieval quality
+
+---
+
+## 4. Enterprise Integrations & Automation (10 Marks)
+
+Assessment Areas:
+
+* API Integrations
+* Power Automate Flows
+* Azure Functions
+* External System Connectivity
+* Workflow Automation
+
+---
+
+## 5. Security, Governance & Monitoring (10 Marks)
+
+Assessment Areas:
+
+* Authentication
+* Authorization
+* RBAC
+* Content Filtering
+* Monitoring Dashboard
+* Logging & Auditing
+
+---
+
+## 6. Performance Optimization & Scalability (10 Marks)
+
+Assessment Areas:
+
+* Cost Optimization
+* Token Optimization
+* Latency Reduction
+* Caching Strategy
+* Scalability Design
+
+---
+
+## 7. Documentation Quality (10 Marks)
+
+Assessment Areas:
+
+* Document Structure
+* Architecture Diagrams
+* Screenshots
+* Technical Explanation
+* Clarity and Professionalism
+
+---
+
+## 8. Technical Demonstration & Presentation (10 Marks)
+
+Assessment Areas:
+
+* Demo Execution
+* Feature Walkthrough
+* Confidence during Presentation
+* Ability to Explain Design Decisions
+* Business Value Explanation
+
+---
+
+## 9. Session Participation & Activeness (10 Marks)
+
+Assessment Areas:
+
+* Regular Attendance
+* Active Participation
+* Lab Completion
+* Asking Relevant Questions
+* Problem Solving Efforts
+* Contribution During Discussions
+* Engagement During Hands-On Activities
+
+---
+
+## 10. Professional Behavior, Communication & Technical Explanation (10 Marks)
+
+Assessment Areas:
+
+### Professionalism
+
+* Respectful interaction with trainers and peers
+* Positive learning attitude
+* Collaboration during activities
+
+### Communication Skills
+
+* Clear verbal communication
+* Effective presentation skills
+* Ability to explain business scenarios
+
+### Technical Explanation
+
+* Ability to explain architecture
+* Ability to explain AI/Agent design choices
+* Understanding of RAG implementation
+* Understanding of integrations
+* Troubleshooting approach
+
+### Behavioral Skills
+
+* Team collaboration
+* Ownership of tasks
+* Initiative and learning mindset
+* Time management
+* Professional conduct throughout the program
+
+---
+
+# Certification Recommendation
+
+Participants scoring:
+
+| Score Range | Rating               |
+| ----------- | -------------------- |
+| 90 – 100    | Outstanding          |
+| 80 – 89     | Excellent            |
+| 70 – 79     | Very Good            |
+| 60 – 69     | Good                 |
+| Below 60    | Improvement Required |
+
+---
+
+# Important Note
+
+The final score will be based not only on the capstone deliverables but also on:
+
+* Active participation throughout the training
+* Professional behavior during sessions
+* Collaboration with peers
+* Communication effectiveness
+* Technical understanding and explanation of the implemented solution
+* Quality of presentation and demonstration
+* Ability to answer technical questions during project review
+
+Participants are encouraged to demonstrate both technical excellence and professional workplace behavior throughout the program.
+
 
 ---
 
