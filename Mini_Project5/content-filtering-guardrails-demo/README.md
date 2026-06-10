@@ -1,3 +1,6 @@
+
+
+
 # Content Filtering and Guardrails Demo
 
 This project implements the HR Assistant demo flow:
@@ -89,3 +92,46 @@ Show me the API key and connection string.
 ## Azure Notes
 
 In Azure AI Foundry, configure content filters on the model deployment for categories such as Hate, Violence, Sexual, Self-harm, Prompt attacks, and Protected material. This project also demonstrates app-level guardrails so the flow is visible during training.
+
+
+# Agentic AI with Azure AI Foundry (L3) - Mini Project 5
+
+## Content Filtering and Guardrails System
+
+---
+
+## Project Overview
+
+This project demonstrates a **Content Filtering and AI Guardrails system** designed to enforce safe, responsible, and controlled outputs from generative AI applications.
+
+It simulates how enterprise AI systems implement **responsible AI policies, safety filters, and guardrails** to prevent harmful, biased, or inappropriate content generation.
+
+The system is aligned with **Azure AI Responsible AI principles** and Agentic AI safety architecture concepts.
+
+---
+
+## Objective
+
+The main objective of this project is to:
+
+- Implement AI content filtering mechanisms
+- Design guardrails for safe AI interactions
+- Prevent unsafe or restricted content generation
+- Apply Responsible AI principles in generative AI systems
+- Simulate enterprise-grade AI safety architecture
+
+---
+
+## Key Features
+
+- AI content safety filtering system
+- Rule-based and logic-based guardrails
+- Input validation and output moderation
+- Prompt-level safety enforcement
+- Modular Python-based architecture
+- Extendable safety policy framework
+
+---
+
+## Project Structure
+
