@@ -137,4 +137,4 @@ AVYUKTi Technologies
 
 ## Disclaimer
 
-These practice papers are intended solely for educational and training purposes. They are not official Microsoft examination materials. Microsoft, Azure, Copilot, and related trademarks belong to Microsoft Corporation.
+These practice papers are intended solely for educational and training purposes.
