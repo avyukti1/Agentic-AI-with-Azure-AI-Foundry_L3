@@ -1,283 +1,391 @@
 # Agentic AI (Advanced) with Azure AI Foundry — Level 3
 
 ## Enterprise Training Program
-### EY Organization | May – June 2026 Batch
-### Duration: 10 Days | Advanced Enterprise Track
+
+**Organization:** EY
+**Training Period:** May – June 2026
+**Duration:** 10 Days
+**Track:** Advanced Enterprise AI Solutions
 
 ---
 
-# Repository Overview
+## Repository Overview
 
-This repository contains complete training materials, hands-on labs, demos, architecture references, mini-projects, capstone projects, whiteboard materials, and implementation assets for the:
+This repository contains training materials, hands-on labs, architecture references, implementation guides, mini-projects, capstone projects, datasets, whiteboard sessions, and supporting resources used during the delivery of the **Agentic AI (Advanced) with Azure AI Foundry — Level 3** enterprise training program.
 
-## Agentic AI (Advanced) with Azure AI Foundry — Level 3
+The program was designed to provide participants with practical experience in building, deploying, governing, and operating enterprise-grade Agentic AI solutions using Microsoft's AI ecosystem.
 
-enterprise training program delivered for EY organization.
+### Key Focus Areas
 
-The program focuses on:
-- Enterprise Agentic AI Architectures
-- Azure AI Foundry
-- Azure OpenAI
-- Multi-Agent Systems
-- Copilot Studio
-- RAG Architectures
-- AI Workflow Automation
-- Enterprise AI Governance
-- AI Security & Monitoring
-- Real-Time Enterprise AI Implementations
-
----
-
-# Training Duration
-
-| Item | Details |
-|---|---|
-| Duration | 10 Days |
-| Level | Advanced |
-| Mode | Enterprise Training |
-| Delivery | Online / Virtual |
-| Training Type | Hands-on + Architecture Driven |
+* Enterprise Agentic AI Architectures
+* Azure AI Foundry
+* Azure OpenAI Service
+* Multi-Agent Systems
+* Copilot Studio
+* Enterprise RAG Architectures
+* AI Workflow Automation
+* Enterprise Integrations
+* AI Governance and Security
+* AI Monitoring and Optimization
 
 ---
 
-# Training Coverage
+## Training Details
 
-## Core Technologies
-
-- Azure AI Foundry
-- Azure OpenAI Service
-- Copilot Studio
-- Multi-Agent AI Systems
-- Semantic Kernel
-- Microsoft Graph API
-- Power Automate
-- Azure AI Search
-- RAG Architecture
-- AI Governance
-- AI Security
-- AI Monitoring & Optimization
+| Item              | Details                          |
+| ----------------- | -------------------------------- |
+| Organization      | EY                               |
+| Duration          | 10 Days                          |
+| Delivery Mode     | Virtual Instructor-Led Training  |
+| Training Level    | Advanced                         |
+| Learning Approach | Architecture Driven & Hands-On   |
+| Labs Coverage     | Enterprise Use Cases             |
+| Projects          | Mini Projects + Capstone Project |
 
 ---
 
-# Repository Structure
+## Technology Stack
 
-| Folder | Description |
-|---|---|
-| DAY1 – DAY10 | Day-wise training materials |
-| Mini_Project1 | Mini project implementation |
-| Mini_Project2 | Enterprise workflow project |
-| Mini_Project3 | AI orchestration project |
-| Capstone_Project1 | Final enterprise capstone project |
-| whiteboard_Materials | Architecture diagrams & explanations |
-| Labs_Sign_in_UserGuide_.pdf | Lab access & environment guide |
+### AI & Agent Platforms
 
----
+* Azure AI Foundry
+* Azure OpenAI Service
+* Microsoft Copilot Studio
+* Semantic Kernel
+* Azure AI Search
 
-# Major Topics Covered
+### Integration Technologies
 
-## Azure AI Foundry Architecture
-- AI Foundry Projects & Hubs
-- Model Deployments
-- AI Orchestration
-- AI Workflow Design
-- AI Governance
+* Microsoft Graph API
+* Microsoft Teams Integration
+* Outlook Integration
+* Calendar Integration
+* Power Automate
 
----
+### Security & Governance
 
-## Agentic AI Systems
-- AI Agents
-- Multi-Agent Systems
-- Parent-Child Agents
-- Agent Orchestration
-- AI Task Delegation
+* Microsoft Entra ID
+* Managed Identity
+* RBAC
+* Responsible AI Controls
+* Content Safety
+* Enterprise Governance Frameworks
 
 ---
 
-## Azure OpenAI
-- GPT Models
-- Embeddings
-- Function Calling
-- Prompt Engineering
-- Token Optimization
-- AI Cost Optimization
+## Enterprise Agentic AI Reference Architecture
+
+```text
+                              Enterprise Users
+                                       │
+                                       ▼
+                         Web | Teams | Copilot | APIs
+                                       │
+                                       ▼
+
+┌────────────────────────────────────────────────────────────┐
+│                    Azure AI Foundry                       │
+│                                                          │
+│  Agent Orchestration                                     │
+│  Planning & Reasoning                                    │
+│  Tool Invocation                                         │
+│  Context Management                                      │
+│  Agent Memory                                            │
+└───────────────────────┬──────────────────────────────────┘
+                        │
+        ┌───────────────┼────────────────┐
+        │               │                │
+
+        ▼               ▼                ▼
+
+ Azure OpenAI      Azure AI Search   Copilot Studio
+
+ GPT Models        Vector Search     Enterprise Copilots
+ Embeddings        Hybrid Search     Business Workflows
+ Function Calling  Semantic Search   Channels
+
+        │               │                │
+        └───────────────┼────────────────┘
+                        │
+                        ▼
+
+              Enterprise Data Sources
+
+      SharePoint • SQL • Dataverse • APIs
+      ServiceNow • SAP • Salesforce • Files
+```
 
 ---
 
 ## Enterprise RAG Architecture
-- Azure AI Search
-- Vector Databases
-- Embeddings
-- Semantic Search
-- Knowledge Grounding
-- Enterprise AI Search
+
+```text
+Enterprise Documents
+Knowledge Bases
+SharePoint
+Databases
+Business Applications
+          │
+          ▼
+
+Document Processing Pipeline
+
+• Chunking
+• Metadata Extraction
+• Embedding Generation
+• Data Enrichment
+
+          │
+          ▼
+
+Azure AI Search
+
+• Vector Index
+• Semantic Ranking
+• Hybrid Retrieval
+
+          │
+          ▼
+
+Azure AI Foundry Agent
+
+          │
+          ▼
+
+Azure OpenAI Models
+
+          │
+          ▼
+
+Grounded Enterprise Responses
+```
 
 ---
 
-## Enterprise Integrations
-- Microsoft Graph API
-- Teams Integration
-- Outlook Integration
-- Calendar Integration
-- Enterprise API Security
+## Multi-Agent Architecture
+
+```text
+                     Master Agent
+                           │
+      ┌────────────────────┼────────────────────┐
+      │                    │                    │
+
+      ▼                    ▼                    ▼
+
+ HR Agent          IT Support Agent      Finance Agent
+
+      │                    │                    │
+
+ HR Knowledge      IT Knowledge Base    Finance Rules
+
+      │                    │                    │
+
+      └──────────── Enterprise Systems ─────────┘
+```
 
 ---
 
-## AI Governance & Security
-- Responsible AI
-- AI Ethics
-- AI Safety
-- Prompt Injection Prevention
-- RBAC
-- Azure Entra ID
-- Managed Identities
-- Content Filtering
-- AI Monitoring
+## Repository Structure
+
+| Folder                         | Description                                      |
+| ------------------------------ | ------------------------------------------------ |
+| DAY1 – DAY10                   | Day-wise training content                        |
+| DATASETs                       | Training datasets                                |
+| PPTS_And_Materials             | Presentation materials                           |
+| whiteboard_Materials           | Architecture diagrams and whiteboard discussions |
+| Mini_Project1 – Mini_Project14 | Hands-on implementation projects                 |
+| Capstone_Project1              | Enterprise capstone implementation               |
+| Certifications_Details         | Certification guidance and references            |
+| EXAMP_PAPERS_Set               | Practice examinations                            |
+| Labs_Sign_in_UserGuide_.pdf    | Lab access instructions                          |
 
 ---
 
-## Workflow Automation
-- Power Automate
-- AI-triggered workflows
-- Approval workflows
-- Enterprise AI automation
+## Major Topics Covered
+
+### Azure AI Foundry
+
+* Foundry Projects and Hubs
+* Model Deployments
+* Agent Development
+* Agent Tools
+* Prompt Flows
+* Evaluations
+
+### Azure OpenAI
+
+* GPT Models
+* Embeddings
+* Function Calling
+* Structured Outputs
+* Prompt Engineering
+* Cost Optimization
+
+### Agentic AI
+
+* Agent Design Patterns
+* Agent Memory
+* Agent Planning
+* Agent Collaboration
+* Parent-Child Agent Architecture
+* Multi-Agent Orchestration
+
+### Enterprise RAG
+
+* Vector Databases
+* Embedding Models
+* Semantic Search
+* Hybrid Search
+* Knowledge Grounding
+* Citation Strategies
+
+### Enterprise Integrations
+
+* Microsoft Graph API
+* Teams Integration
+* Outlook Integration
+* Calendar Integration
+* External REST APIs
+
+### Governance & Security
+
+* Responsible AI
+* AI Safety
+* Prompt Injection Protection
+* Content Filtering
+* RBAC
+* Managed Identities
+* Enterprise Governance Controls
+
+### Workflow Automation
+
+* Power Automate
+* Approval Workflows
+* AI-triggered Actions
+* Business Process Automation
 
 ---
 
-# Hands-On Labs Included
+## Hands-On Labs
 
-- Azure AI Foundry Setup
-- GPT Model Deployment
-- Embedding Model Deployment
-- Multi-Agent Workflow Implementation
-- Enterprise RAG Setup
-- AI Guardrails & Content Filtering
-- Microsoft Graph API Integrations
-- Teams AI Bot Development
-- AI Workflow Automation
-- Enterprise Governance Implementation
+* Azure AI Foundry Setup
+* GPT Model Deployment
+* Embedding Model Deployment
+* Enterprise RAG Implementation
+* AI Search Configuration
+* Multi-Agent Development
+* Teams AI Assistant Development
+* Microsoft Graph Integrations
+* AI Governance Controls
+* Workflow Automation Solutions
 
 ---
 
-# Mini Projects
+## Mini Projects
 
-## Mini Project 1
+### Mini Project 1
+
 Enterprise AI Assistant
 
-## Mini Project 2
+### Mini Project 2
+
 AI Workflow Automation Platform
 
-## Mini Project 3
-Multi-Agent Enterprise AI System
+### Mini Project 3
+
+Multi-Agent Enterprise Solution
+
+### Additional Projects
+
+* RAG-based Knowledge Assistant
+* Enterprise Search Platform
+* AI Agent Integrations
+* Tool Calling Implementations
+* Governance Automation Scenarios
 
 ---
 
-# Final Capstone Project
+## Capstone Project
 
-## Enterprise Multi-Agent AI Business Platform
+### Enterprise Multi-Agent AI Business Platform
 
-### Features
-- HR AI Assistant
-- IT Helpdesk AI
-- Finance Approval AI
-- Teams Integration
-- Outlook Integration
-- AI Governance Dashboard
-- RAG-based Enterprise Search
-- Multi-Agent Orchestration
+#### Components
 
----
-
-# Learning Outcomes
-
-By the end of this training participants will be able to:
-
-- Design enterprise-grade Agentic AI architectures
-- Build multi-agent AI systems
-- Implement Azure AI Foundry solutions
-- Deploy enterprise AI applications
-- Build RAG architectures
-- Secure enterprise AI platforms
-- Implement AI governance frameworks
-- Optimize AI performance & costs
-- Build scalable AI workflows
+* HR AI Assistant
+* IT Support Assistant
+* Finance Approval Assistant
+* Enterprise Search Engine
+* Teams Integration
+* Outlook Integration
+* Governance Dashboard
+* Multi-Agent Coordination Framework
 
 ---
 
-# Recommended Prerequisites
+## Learning Outcomes
 
-- Basic Azure knowledge
-- Understanding of AI/LLM concepts
-- API integration basics
-- Cloud fundamentals
-- Basic Python knowledge (recommended)
+Participants completing this program will be able to:
 
----
-
-# Enterprise Use Cases
-
-- HR AI Assistants
-- ITSM AI Systems
-- Finance AI Approvals
-- Enterprise Knowledge Search
-- AI Workflow Automation
-- Intelligent Ticket Routing
-- Enterprise AI Governance
+* Design enterprise-grade Agentic AI solutions
+* Build and orchestrate AI agents
+* Implement Azure AI Foundry workloads
+* Develop enterprise RAG applications
+* Integrate AI with enterprise systems
+* Implement governance and security controls
+* Monitor and optimize AI workloads
+* Build scalable production-ready AI solutions
 
 ---
 
-# Training Methodology
+## Enterprise Use Cases
 
-- 35% Theory
-- 65% Hands-on Labs
-- Enterprise Architecture Discussions
-- Real-Time Use Cases
-- Whiteboard Explanations
-- Mini Projects
-- Final Capstone Project
-
----
-
-# Additional Deliverables
-
-- Day-wise Lab Materials
-- Architecture Diagrams
-- Demo Implementations
-- Whiteboard Notes
-- Sample AI Workflows
-- Enterprise Case Studies
-- GitHub Repository Access
+* HR Virtual Assistants
+* IT Service Management Assistants
+* Enterprise Knowledge Search
+* Finance Approval Automation
+* Intelligent Ticket Routing
+* Employee Self-Service Assistants
+* AI-driven Workflow Automation
+* Enterprise Governance Solutions
 
 ---
 
-# Trainer
+## Training Methodology
 
-AVYUKTi Technologies  
+| Component                | Coverage |
+| ------------------------ | -------- |
+| Theory                   | 20%      |
+| Hands-On Labs            | 80%      |
+| Architecture Discussions | Included |
+| Whiteboard Sessions      | Included |
+| Mini Projects            | Included |
+| Capstone Project         | Included |
+| Enterprise Use Cases     | Included |
+
+---
+
+## Deliverables
+
+* Day-wise Training Materials
+* Hands-On Lab Guides
+* Architecture Reference Documents
+* Whiteboard Notes
+* Demo Implementations
+* Sample Workflows
+* Mini Projects
+* Capstone Project
+* Practice Examination Sets
+
+---
+
+## Trainer
+
+**AVYUKTi Technologies**
+
 Enterprise AI • Cloud • Data • Agentic AI Solutions
 
 ---
 
-# Disclaimer
+## Disclaimer
 
-This repository is intended for:
-- Educational purposes
-- Enterprise training
-- Architecture learning
-- Hands-on AI implementation practice
-
----
-
-# Tags
-
-#AzureAIFoundry  
-#AgenticAI  
-#AzureOpenAI  
-#CopilotStudio  
-#MultiAgentAI  
-#RAGArchitecture  
-#EnterpriseAI  
-#AIGovernance  
-#AIWorkflowAutomation  
-#AzureAI  
-#SemanticKernel  
-#MicrosoftGraphAPI  
-#EnterpriseAutomation  
+This repository is intended for enterprise training, architecture learning, hands-on implementation exercises, and educational purposes. All examples and reference implementations are provided solely for learning and demonstration purposes.
