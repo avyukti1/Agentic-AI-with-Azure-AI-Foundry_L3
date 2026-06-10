@@ -24,12 +24,12 @@ The program was designed to provide participants with practical experience in ar
 | Total Training Hours  | 48 Hours                               |
 | Delivery Mode         | Virtual Instructor-Led Training (VILT) |
 | Training Level        | Advanced                               |
-| Mini Projects         | 14                                     |
-| Capstone Projects     | 1                                      |
+| Mini Projects         | 12+                                     |
+| Capstone Projects     | 2                                      |
 | Hands-On Labs         | 20+                                    |
 | Architecture Sessions | Included                               |
 | Whiteboard Sessions   | Included                               |
-| Practice Exam Sets    | Included                               |
+| Practice Exam Sets    | Included (2 Sets)                              |
 | Learning Approach     | Architecture Driven & Hands-On         |
 
 ---
@@ -44,7 +44,7 @@ The program was designed to provide participants with practical experience in ar
 | Training Level    | Advanced                                                                             |
 | Learning Approach | Architecture Driven & Hands-On                                                       |
 | Labs Coverage     | Enterprise Use Cases                                                                 |
-| Projects          | 14 Mini Projects + 1 Enterprise Capstone Project                                     |
+| Projects          | 12+ Mini Projects + 2 Enterprise Capstone Project                                     |
 | Primary Focus     | Azure AI Foundry, Azure OpenAI, Agentic AI, RAG, Copilot Studio, Multi-Agent Systems |
 
 ---
