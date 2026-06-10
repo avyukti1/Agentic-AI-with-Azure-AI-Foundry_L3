@@ -1,5 +1,5 @@
-# Agentic AI with Azure AI Foundry (L3)
-## Microsoft Certification Reference Guide
+# Agentic AI & Azure AI Foundry Certification Guide
+## Microsoft Professional Certification Reference (AI, Agentic AI, AI Business & Architect)
 
 ---
 
@@ -7,32 +7,11 @@
 
 **Certification Name:** Microsoft Certified: Azure AI Engineer Associate  
 **Exam Code:** AI-102  
-**Certification Level:** Associate  
+**Level:** Associate  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
 
 ### Description
-This certification validates the ability to design, build, and deploy AI solutions using Azure AI services. It covers generative AI, language, vision, and AI integration patterns with cloud workloads.
-
-### Skills Measured
-- Plan and design AI solutions on Azure
-- Implement generative AI applications
-- Integrate AI models in workflows
-- Configure security, privacy, and compliance
-- Monitor and optimize AI applications for cost and performance
-
-### Prerequisites
-- Experience in Python or another programming language
-- Understanding of REST APIs
-- Familiarity with the Azure portal and core services
-
-### Exam Details
-
-| Feature           | Details                         |
-|------------------|---------------------------------|
-| Duration         | 100–120 minutes                 |
-| Passing Score    | 700 (on a 1000 scale)           |
-| Question Format  | Multiple choice, scenario based |
-| Delivery         | Online proctored / Test center  |
+Validates designing and implementing AI solutions using Azure services including generative AI, language, vision, and integration with cloud workloads.
 
 ---
 
@@ -40,111 +19,155 @@ This certification validates the ability to design, build, and deploy AI solutio
 
 **Certification Name:** Microsoft Certified: Azure AI Apps and Agents Developer Associate  
 **Exam Code:** AI-103 (Beta)  
-**Certification Level:** Associate  
+**Level:** Associate  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/
 
 ### Description
-This upcoming certification focuses on building and deploying AI applications and autonomous agent solutions using Azure AI Foundry and related AI services. It emphasizes agentic workflows, orchestration, tool integration, and responsible AI practices.
-
-### Skills Measured
-- Build agentic applications using Azure AI Foundry
-- Integrate LLMs, tools, and knowledge sources
-- Apply human-in-the-loop workflows
-- Implement memory, retrieval, and reasoning
-- Secure and govern deployed solutions
-
-### Status
-- Currently in Beta
-- Expected to become generally available as the agentic AI standard certification track
+Focuses on building agentic AI applications using Azure AI Foundry, integrating tools, memory, workflows, and responsible AI patterns.
 
 ---
 
 ## 3. Microsoft Certified: AI Agent Builder Associate
 
 **Certification Name:** Microsoft Certified: AI Agent Builder Associate  
-**Exam Code:** AGENT-AI (Exact code may vary)  
-**Certification Level:** Associate  
+**Exam Code:** AGENT-AI (subject to change)  
+**Level:** Associate  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/ai-agent-builder-associate/
 
 ### Description
-This certification focuses on agentic AI workflows, skills and practical implementation of AI agents using Microsoft tools and frameworks. It provides foundational validation for developing autonomous AI agent systems that connect to APIs, data sources, and runtime environments.
-
-### Skills Measured
-- Create AI agents and connector workflows
-- Integrate plugins, APIs, and toolsets
-- Build agents using standardized frameworks
-- Implement agent-specific security and runtime governance
-- Test, debug, and optimize agent workflows
+Validates building autonomous AI agents, workflows, tool integrations, and agent framework competencies.
 
 ---
 
 ## 4. GitHub Certified: Agentic AI Developer
 
 **Certification Name:** GitHub Certified: Agentic AI Developer  
-**Exam Code:** GH-600 (Example code)  
-**Certification Level:** Intermediate  
+**Exam Code:** GH-600 (example)  
+**Level:** Intermediate  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-developer/
 
 ### Description
-This certification focuses on building agentic AI workflows and solutions using GitHub and Microsoft tooling, including automation pipelines, LLM integrations, and best practices for software development lifecycles that involve AI agents.
-
-### Skills Measured
-- Implement agentic workflows
-- Integrate tools like Copilot
-- Build automation with AI in CI/CD
-- Build AI endpoints, plugins, and adaptive experiences
+Focuses on agentic workflows, AI integration in software engineering lifecycles, and GitHub-based automation with AI.
 
 ---
 
-## 5. (Optional) Microsoft Certified: Azure AI Fundamentals
+## 5. Microsoft Certified: Azure AI Fundamentals
 
 **Certification Name:** Microsoft Certified: Azure AI Fundamentals  
 **Exam Code:** AI-900  
-**Certification Level:** Fundamental  
+**Level:** Fundamental  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
 
 ### Description
-Foundational certification validating basics of AI, machine learning, and Azure AI services. Strongly recommended before advanced AI certifications.
-
-### Skills Measured
-- Core AI concepts
-- Machine learning principles
-- Natural language processing basics
-- Vision and speech AI understanding
-- Basics of Azure AI services
+Foundational certification validating AI and Azure basics. Recommended before advanced AI exams.
 
 ---
 
-## Recommended Certification Path
+## 6. Microsoft Certified: AI Business & Architect Certifications (Agentic AI Strategy)
 
-1. Azure AI Fundamentals (AI-900)  
-2. Azure AI Engineer Associate (AI-102)  
-3. Azure AI Apps and Agents Developer Associate (AI-103, Beta)  
-4. AI Agent Builder Associate  
-5. GitHub Certified: Agentic AI Developer
+This set of certifications targets **AI strategy, solutions architecture, and enterprise AI adoption**.
 
 ---
 
-## Use Cases Covered
+### 6.1 Microsoft Certified: AI Business Foundations
 
-| Certification                              | Best For                                       |
-|-------------------------------------------|------------------------------------------------|
-| Azure AI Fundamentals (AI-900)            | Basic AI concepts and Azure AI services        |
-| Azure AI Engineer Associate (AI-102)      | Building AI solutions and deployment on Azure  |
-| Azure AI Apps & Agents (AI-103)           | Agentic AI solutions with Azure Foundry        |
-| AI Agent Builder Associate                | Practical agent development skills             |
-| GitHub Agentic AI Developer               | AI developer workflows and GitHub integrations |
+**Certification Name:** Microsoft Certified: AI Business Foundations  
+**Exam Code:** AB-900  
+**Level:** Fundamentals  
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/ai-business-foundations/
+
+### Description
+Covers core understanding of AI business value, strategy, customer outcomes, ROI, and adoption frameworks.
 
 ---
 
-## Summary
+### 6.2 Microsoft Certified: AI Solutions Architect – Associate
 
-This document provides professional certification details for agentic AI and Azure AI Foundry related certifications offered by Microsoft and associated partners. It is suited for AI engineers, developers, architects, and professionals building scalable AI solutions on Azure.
+**Certification Name:** Microsoft Certified: AI Solutions Architect  
+**Exam Code:** AB-100  
+**Level:** Associate  
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/ai-solutions-architect/
+
+### Description
+Validates designing scalable, secure AI solutions aligned with business strategy and technical architecture patterns.
+
+---
+
+### 6.3 Microsoft Certified: AI Implementation Specialist
+
+**Certification Name:** Microsoft Certified: AI Implementation Specialist  
+**Exam Code:** AB-200  
+**Level:** Associate  
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/ai-implementation-specialist/
+
+### Description
+Focuses on implementing enterprise AI systems, pipelines, and operationalizing models.
+
+---
+
+### 6.4 Microsoft Certified: AI Integration Expert
+
+**Certification Name:** Microsoft Certified: AI Integration Expert  
+**Exam Code:** AB-300  
+**Level:** Expert  
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/ai-integration-expert/
+
+### Description
+Validates integrating AI systems with enterprise data estates, APIs, and hybrid cloud patterns.
+
+---
+
+### 6.5 Microsoft Certified: AI Governance & Responsible AI Expert
+
+**Certification Name:** Microsoft Certified: AI Governance & Responsible AI Expert  
+**Exam Code:** AB-500  
+**Level:** Expert  
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/ai-governance-responsible-ai-expert/
+
+### Description
+Focuses on responsible AI, ethical policies, risk management, fairness, transparency, compliance and governance of AI across enterprise.
+
+---
+
+## Certification Summary Table
+
+| Certification Title | Exam Code | Level | Focus Area |
+|---------------------|-----------|--------|------------|
+| AI Fundamentals | AI-900 | Fundamental | AI basics & Azure AI services |
+| Azure AI Engineer Associate | AI-102 | Associate | Build & deploy AI solutions |
+| Azure AI Apps & Agents Developer | AI-103 (Beta) | Associate | Agentic AI & AI Foundry |
+| AI Agent Builder Associate | AGENT-AI | Associate | Building autonomous AI agents |
+| GitHub Certified: Agentic AI Developer | GH-600 | Intermediate | Dev workflows & AI automation |
+| AI Business Foundations | AB-900 | Fundamental | AI strategy & business value |
+| AI Solutions Architect | AB-100 | Associate | Architect AI solutions |
+| AI Implementation Specialist | AB-200 | Associate | Operational AI implementation |
+| AI Integration Expert | AB-300 | Expert | Enterprise AI integrations |
+| AI Governance & Responsible AI Expert | AB-500 | Expert | Responsible AI & governance |
+
+---
+
+## Recommended AI Certification Path
+
+1. **AI Fundamentals (AI-900)**  
+2. **AI Business Foundations (AB-900)**  
+3. **Azure AI Engineer (AI-102)**  
+4. **AI Solutions Architect (AB-100)**  
+5. **Azure AI Apps & Agents Developer (AI-103)**  
+6. **AI Agent Builder Associate (AGENT-AI)**  
+7. **AI Implementation Specialist (AB-200)**  
+8. **AI Integration Expert (AB-300)**  
+9. **AI Governance & Responsible AI Expert (AB-500)**  
+10. **GitHub Certified: Agentic AI Developer (GH-600)**
+
+---
+
+## Conclusion
+
+This `README` provides a complete professional reference to Microsoft’s AI and agentic AI certifications spanning core fundamentals, architect, developer, agent builder, and business strategy levels. It is suitable for building learning paths, career roadmaps, or repository documentation.
 
 ---
 
 ## References
 
-- Microsoft Certification Pages (learn.microsoft.com)
-- Azure AI Certification Catalog
-- Official Microsoft Learn Documentation
+- Microsoft Learn Certification Portal  
+- Individual certification pages on learn.microsoft.com
