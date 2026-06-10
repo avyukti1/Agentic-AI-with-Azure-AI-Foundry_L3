@@ -141,7 +141,11 @@ The program supports concepts and skills aligned with:
 
 ---
 
-## Trainer: Ajaykumr BK - AVYUKTi Technologies -  AI-Foundry, Enterprise AI • Cloud • Data • Microsoft Certified: Agentic AI Business Solutions Architect 
+## Trainer: 
+
+* Ajaykumr BK - AVYUKTi Technologies -  AI-Foundry, Enterprise AI • Cloud • Data • Microsoft Certified: Agentic AI Business Solutions Architect 
 
 ---
-## Disclaimer This repository is intended for enterprise training, architecture learning, hands-on implementation exercises, and educational purposes. All examples and reference implementations are provided solely for learning and demonstration purposes.
+## Disclaimer 
+
+*This repository is intended for enterprise training, architecture learning, hands-on implementation exercises, and educational purposes. All examples and reference implementations are provided solely for learning and demonstration purposes.
