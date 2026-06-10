@@ -1,114 +1,140 @@
-# AI-900: Microsoft Azure AI Fundamentals – Exam Papers Set
+# Exam Papers Set
 
 ## Overview
 
-This folder contains practice exam papers for **AI-900: Microsoft Azure AI Fundamentals** certification preparation.
+This folder contains certification practice exam papers for Microsoft's Artificial Intelligence and Agentic AI learning paths.
 
-These question sets are designed to help learners:
-
-* Understand the AI-900 exam pattern
-* Practice objective-type questions
-* Assess readiness before attempting the certification exam
-* Revise key Azure AI concepts and services
+The question papers are designed to help learners evaluate their knowledge, improve exam readiness, and strengthen their understanding of Azure AI technologies, Generative AI, Copilot, and Agentic AI architectures.
 
 ---
 
-## Contents
+## Available Exam Papers
 
-| File Name                   | Description               |
-| --------------------------- | ------------------------- |
-| AI_900_EXAM-papers_Set1.pdf | Practice Exam Paper Set 1 |
-| AI_900_EXAM-papers_Set2.pdf | Practice Exam Paper Set 2 |
+### AI-900: Microsoft Azure AI Fundamentals
 
----
+| File                        | Description                |
+| --------------------------- | -------------------------- |
+| AI_900_EXAM-papers_Set1.pdf | AI-900 Practice Exam Set 1 |
+| AI_900_EXAM-papers_Set2.pdf | AI-900 Practice Exam Set 2 |
 
-## Exam Skills Measured
+#### Topics Covered
 
-### AI Workloads and Responsible AI
-
-* Common AI workloads
-* Responsible AI principles
-* Azure AI services overview
-
-### Machine Learning Fundamentals
-
-* Machine Learning concepts
-* Training and evaluation
-* Azure Machine Learning basics
-
-### Computer Vision
-
-* Image classification
-* Object detection
-* OCR and image analysis
-* Azure AI Vision services
-
-### Natural Language Processing (NLP)
-
-* Sentiment analysis
-* Language understanding
-* Text analytics
-* Translation services
-
-### Conversational AI
-
-* Chatbots
-* Azure AI Bot Service
-* Conversational solutions
-
-### Generative AI and Azure OpenAI
-
-* Large Language Models (LLMs)
-* Prompt engineering
-* Azure OpenAI Service
-* Responsible Generative AI
-
----
-
-## Recommended Study Resources
-
-* Microsoft Learn AI-900 Learning Path
-* Azure AI Services Documentation
-* Azure OpenAI Service Documentation
-* Hands-on Labs and Practice Exercises
-
----
-
-## Suggested Preparation Strategy
-
-1. Complete Microsoft Learn modules.
-2. Perform hands-on labs using Azure AI Services.
-3. Review AI concepts and Azure AI offerings.
-4. Attempt Practice Set 1.
-5. Review incorrect answers and revisit weak areas.
-6. Attempt Practice Set 2.
-7. Schedule the certification exam.
-
----
-
-## Target Certification
-
-**Exam:** AI-900 – Microsoft Azure AI Fundamentals
-
-This certification validates foundational knowledge of:
-
-* Artificial Intelligence concepts
-* Machine Learning fundamentals
+* AI Workloads
+* Responsible AI
+* Machine Learning Fundamentals
 * Computer Vision
 * Natural Language Processing
 * Conversational AI
-* Generative AI
 * Azure AI Services
+* Generative AI Fundamentals
+* Azure OpenAI Basics
+
+---
+
+### AB-100: Accelerate Agentic AI Business Solutions
+
+| File                       | Description                |
+| -------------------------- | -------------------------- |
+| AB-100_Exam_Paper_Set1.pdf | AB-100 Practice Exam Set 1 |
+| AB-100_Exam_Paper_Set2.pdf | AB-100 Practice Exam Set 2 |
+
+#### Topics Covered
+
+* Agentic AI Fundamentals
+* Azure AI Foundry
+* Azure OpenAI Service
+* Prompt Engineering
+* RAG Architecture
+* Azure AI Search
+* Copilot Studio
+* Multi-Agent Systems
+* Tool Calling & Function Integration
+* Enterprise AI Security
+* Responsible AI
+* Monitoring & Governance
+* AI Solution Architecture
+
+---
+
+## Recommended Preparation Strategy
+
+### For AI-900
+
+1. Complete Microsoft Learn AI-900 modules.
+2. Review Azure AI Services.
+3. Practice Computer Vision and NLP concepts.
+4. Attempt Set 1.
+5. Review weak areas.
+6. Attempt Set 2.
+7. Schedule certification exam.
+
+---
+
+### For AB-100
+
+1. Learn Agentic AI concepts.
+2. Complete Azure AI Foundry labs.
+3. Build RAG-based applications.
+4. Practice Prompt Engineering.
+5. Implement Agent workflows.
+6. Attempt Set 1.
+7. Review incorrect answers.
+8. Attempt Set 2.
+9. Complete Capstone Project.
+
+---
+
+## Learning Outcomes
+
+After completing these exam sets, learners will be able to:
+
+* Understand Azure AI services
+* Design AI-powered business solutions
+* Build Agentic AI applications
+* Implement Retrieval-Augmented Generation (RAG)
+* Develop Azure AI Foundry Agents
+* Create Copilot Studio solutions
+* Apply Responsible AI principles
+* Architect enterprise-grade AI solutions
+
+---
+
+## Target Audience
+
+* Students
+* Developers
+* Solution Architects
+* Data Professionals
+* AI Engineers
+* Copilot Developers
+* Azure Professionals
+* Enterprise AI Consultants
+
+---
+
+## Repository
+
+**Agentic-AI-with-Azure-AI-Foundry_L3**
+
+This repository contains:
+
+* Training Materials
+* Hands-on Labs
+* Architecture Diagrams
+* Demo Applications
+* Capstone Projects
+* Certification Practice Papers
 
 ---
 
 ## Author
 
-**AVYUKTi Technologies**
-Agentic AI with Azure AI Foundry Training Program
+AVYUKTi Technologies
+
+**Think • Learn • Innovate**
 
 ---
 
-### Disclaimer
+## Disclaimer
 
-These practice papers are intended for educational and training purposes only. They are not official Microsoft exam materials. Microsoft, Azure, and related trademarks belong to Microsoft Corporation.
+These practice papers are intended solely for educational and training purposes. They are not official Microsoft examination materials. Microsoft, Azure, Copilot, and related trademarks belong to Microsoft Corporation.
