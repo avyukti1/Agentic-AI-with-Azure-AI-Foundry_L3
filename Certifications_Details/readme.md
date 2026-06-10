@@ -1,95 +1,206 @@
 # Agentic AI & Azure AI Foundry Certification Guide
 
-Microsoft Professional Certification Reference for AI, Generative AI, Agentic AI, and Azure AI Engineering
+Microsoft Official Certification Reference for AI, Generative AI, and Azure AI Engineering (Updated 2026)
 
 ---
 
 ## Overview
 
-This document provides a consolidated and accurate list of Microsoft certifications aligned with:
+This document is based on official Microsoft Learn certification study guides and includes validated certifications related to:
 
 - Artificial Intelligence (AI)
 - Generative AI
 - Agentic AI systems
-- Azure AI Foundry / Azure AI Studio (capabilities inside AI-102 & future AI tracks)
-- Cloud AI architecture
-- AI engineering lifecycle (build, deploy, secure, monitor)
+- Azure AI Foundry (Microsoft Foundry platform capabilities)
+- Azure Machine Learning
+- AI application development
 
 ---
 
 # 1. Microsoft Certified: Azure AI Fundamentals
 
-**Exam Code:** AI-900  
+**Exam Code:** AI-900 (AI-901 replacement in some updates)  
 **Level:** Fundamental  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
 
-## Description
-Entry-level certification covering core AI concepts and Azure AI services.
+---
 
-### Topics Covered
-- AI workloads and responsible AI principles
-- Machine learning fundamentals
-- Computer vision basics
-- Natural language processing basics
-- Generative AI concepts
+## Purpose
+
+This certification is designed for beginners with conceptual knowledge of AI and Azure AI services.
 
 ---
 
-# 2. Microsoft Certified: Azure Data Scientist Associate
+## Skills Measured (Official Microsoft Structure)
 
-**Exam Code:** DP-100  
-**Level:** Associate  
-**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/
+### 1. Identify AI Concepts and Responsibilities (40–45%)
 
-## Description
-Focuses on building, training, and deploying machine learning models using Azure Machine Learning.
-
-### Topics Covered
-- ML model training and evaluation
-- Azure Machine Learning pipelines
-- MLOps workflows
-- Feature engineering
-- Model deployment and monitoring
+- Describe principles of Responsible AI:
+  - Fairness
+  - Reliability and safety
+  - Privacy and security
+  - Inclusiveness
+  - Transparency
+  - Accountability
 
 ---
 
-# 3. Microsoft Certified: Azure AI Engineer Associate
+### 2. Identify AI Model Components and Configurations
+
+- Understand how generative AI models work
+- Select appropriate AI models based on capability
+- Understand deployment options and configuration parameters
+
+---
+
+### 3. Identify AI Workloads
+
+- Generative AI applications
+- Agentic AI concepts (basic awareness)
+- Text analytics
+- Speech processing
+- Computer vision
+- Information extraction
+
+---
+
+### 4. Identify Text Analytics Capabilities
+
+- Keyword extraction
+- Entity detection
+- Sentiment analysis
+- Summarization
+
+---
+
+### 5. Identify Speech Capabilities
+
+- Speech recognition
+- Speech synthesis
+
+---
+
+### 6. Identify Computer Vision Capabilities
+
+- Image analysis
+- Image generation models
+
+---
+
+### 7. Identify Information Extraction Techniques
+
+- Extract data from:
+  - Text
+  - Images
+  - Audio
+  - Video
+
+---
+
+## Implementation Focus (Microsoft Foundry Section)
+
+### Implement AI Solutions Using Microsoft Foundry
+
+- Create prompts for generative AI models
+- Deploy and interact with models in Foundry portal
+- Build lightweight chat applications using Foundry SDK
+- Create single-agent solutions
+- Build simple AI agent clients
+
+---
+
+# 2. Microsoft Certified: Azure AI Engineer Associate
 
 **Exam Code:** AI-102  
 **Level:** Associate  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
 
-## Description
-Core certification for building AI solutions on Azure, including Generative AI and Agentic AI foundations.
+---
 
-### Topics Covered
-- Azure AI Services (Vision, Language, Speech)
-- Azure OpenAI Service
-- Retrieval-Augmented Generation (RAG)
-- AI solution integration using SDKs and REST APIs
-- Knowledge mining with Azure AI Search
-- Responsible AI implementation
+## Purpose
 
-### Agentic AI Relevance
-This certification is the **primary foundation for Agentic AI systems on Azure**, including orchestration patterns and AI-powered applications using Azure AI Foundry concepts.
+Build enterprise AI solutions using Azure AI services and generative AI systems.
 
 ---
 
-# 4. Microsoft Certified: Azure Developer Associate
+## Key Skills
 
-**Exam Code:** AZ-204  
+- Azure OpenAI integration
+- Azure AI Search (RAG systems)
+- Computer vision solutions
+- NLP and language services
+- Document intelligence
+- AI model deployment
+- Responsible AI implementation
+
+---
+
+## Agentic AI Relevance
+
+- Multi-step AI workflows
+- RAG-based intelligent agents
+- Tool-augmented AI systems
+- Foundry-style orchestration concepts
+
+---
+
+# 3. Microsoft Certified: Azure AI Apps and Agents Developer Associate
+
+**Exam Code:** AI-103 (Beta / evolving)  
 **Level:** Associate  
-**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/
 
-## Description
-Covers cloud application development and integration with Azure services.
+---
 
-### Topics Covered
-- Azure compute and storage
-- Event-driven architectures
-- API development
-- Secure application design
-- Integration with AI services
+## Purpose
+
+Focused on building **Agentic AI applications using Azure AI Foundry concepts**.
+
+---
+
+## Key Skills
+
+- Build AI agent applications
+- Use multi-agent orchestration patterns
+- Integrate tools and APIs with AI agents
+- Implement memory and context systems
+- Build RAG-powered applications
+- Create lightweight AI client applications
+
+---
+
+## Foundry Mapping
+
+This certification directly aligns with:
+
+- Microsoft Foundry portal usage
+- AI agent creation workflows
+- Prompt + tool orchestration
+- Enterprise AI application design
+
+---
+
+# 4. Microsoft Certified: Azure Data Scientist Associate
+
+**Exam Code:** DP-100  
+**Level:** Associate  
+**Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/
+
+---
+
+## Purpose
+
+Machine learning lifecycle management using Azure Machine Learning.
+
+---
+
+## Skills
+
+- Model training and evaluation
+- Feature engineering
+- MLOps pipelines
+- Model deployment
+- Experiment tracking
 
 ---
 
@@ -99,15 +210,21 @@ Covers cloud application development and integration with Azure services.
 **Level:** Expert  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/
 
-## Description
-Enterprise architecture certification relevant for designing AI and Agentic AI systems at scale.
+---
 
-### Topics Covered
+## Purpose
+
+Design enterprise-grade Azure architectures including AI workloads.
+
+---
+
+## Skills
+
 - Cloud architecture design
 - Security and governance
-- Hybrid and multi-cloud solutions
-- Enterprise scalability for AI workloads
-- Identity and access design
+- Identity management
+- Hybrid cloud solutions
+- AI workload integration
 
 ---
 
@@ -117,78 +234,69 @@ Enterprise architecture certification relevant for designing AI and Agentic AI s
 **Level:** Expert  
 **Official Link:** https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
 
-## Description
-Focuses on CI/CD, automation, and MLOps practices for AI systems.
+---
 
-### Topics Covered
-- CI/CD pipelines
-- Infrastructure as Code (IaC)
-- MLOps and AI deployment automation
-- Monitoring and observability
+## Purpose
+
+CI/CD and automation for AI and cloud workloads.
+
+---
+
+## Skills
+
+- MLOps pipelines
+- Infrastructure as Code
+- CI/CD automation
+- Monitoring AI systems
 - DevSecOps practices
 
 ---
 
-# 7. Azure AI Foundry / Agentic AI Mapping (Important Clarification)
+# Important Clarification (From Official Microsoft Learn)
 
-## Important Reality Check
+## Azure AI Foundry Reality
 
-Microsoft does NOT currently provide a separate certification titled:
+- NOT a separate certification
+- NOT an exam
+- NOT a credential
 
-- “Azure AI Foundry Certification”
-- “Agent Builder Certification”
-- “AI Apps and Agents Certification (AI-103 is evolving replacement track)”
+### Instead:
 
-## Instead, Azure AI Foundry capabilities are included in:
+Azure AI Foundry is part of:
 
-### Core Certifications Covering Foundry Skills
-- AI-102 (Azure AI Engineer)
-- Emerging AI-103 (Azure AI Apps & Agents – next evolution of AI-102)
-
-## Foundry-related Skills Include
-- Multi-agent orchestration (conceptual + platform-level)
-- Prompt engineering workflows
-- RAG pipelines
-- Tool + API integration for AI agents
-- Enterprise AI governance
-- Azure OpenAI integration
+- AI-900 (conceptual introduction)
+- AI-102 (core implementation)
+- AI-103 (agentic AI evolution)
 
 ---
 
-# Recommended Microsoft AI Certification Path (Agentic AI Focus)
+# Recommended Certification Path (Agentic AI Focus)
 
 ## Beginner
-1. AI-900 – Azure AI Fundamentals
+- AI-900 (Azure AI Fundamentals)
 
 ## Intermediate
-2. AI-102 – Azure AI Engineer Associate
-3. DP-100 – Azure Data Scientist Associate
+- AI-102 (Azure AI Engineer Associate)
+- DP-100 (Azure Data Scientist)
 
 ## Advanced
-4. AZ-204 – Azure Developer Associate
-5. AZ-305 – Azure Solutions Architect Expert
-6. AZ-400 – DevOps Engineer Expert
+- AI-103 (Azure AI Apps & Agents - Agentic AI)
+- AZ-305 (Solutions Architect)
+- AZ-400 (DevOps / MLOps)
 
 ---
 
-# Key Takeaway
+# Final Summary
 
-- Microsoft AI certifications are **role-based**, not “Foundry-based certifications”
-- Azure AI Foundry is a **platform capability inside Azure AI services**, not a standalone certification
-- AI-102 is currently the **most important certification for Agentic AI development**
+This document reflects the **official Microsoft Learn certification structure (2026)** covering:
 
----
-
-# Summary
-
-This guide provides a clean, accurate, and Microsoft-aligned certification path for:
-
-- AI Engineering
-- Generative AI development
+- AI fundamentals
+- Generative AI
 - Agentic AI systems
-- Azure AI Foundry workloads
+- Azure AI Foundry capabilities
 - Enterprise AI architecture
+- MLOps and DevOps for AI
 
 ---
 
-© 2026 Microsoft AI Certification Reference Guide
+© 2026 Microsoft Learn Certification Reference Guide
