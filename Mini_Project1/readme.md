@@ -59,3 +59,62 @@ The main objective of this mini project is to:
 ---
 
 ## Project Structure
+
+
+---
+
+## Workflow
+
+1. User submits an HR-related query
+2. Input is processed through predefined prompt templates
+3. AI logic interprets the intent
+4. Response is generated based on HR knowledge context
+5. Output is returned to the user
+
+---
+
+## Technology Stack
+
+- Python
+- Generative AI concepts (LLM-based design)
+- Prompt Engineering
+- Agentic AI design principles
+- Conceptual Azure AI Foundry alignment
+
+---
+
+## Learning Outcomes
+
+By completing this project, you will understand:
+
+- How Agentic AI assistants are structured
+- How prompt engineering is used in enterprise AI
+- How HR workflows can be automated using AI
+- How Azure AI Foundry concepts are applied in real use cases
+- Basics of AI assistant architecture design
+
+---
+
+## Future Enhancements
+
+- Integration with Azure OpenAI Service
+- Real-time HR database connectivity
+- Role-based access control
+- Multi-agent HR system (Payroll, IT, HR support)
+- Web interface using Flask or FastAPI
+- Deployment on Azure App Service
+
+---
+
+## Project Type
+
+- Learning Project
+- Mini Project
+- Agentic AI Prototype
+
+---
+
+## License
+
+This project is for educational and training purposes only.
+
